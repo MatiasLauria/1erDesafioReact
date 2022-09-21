@@ -1,0 +1,28 @@
+
+
+nav{
+    background-color: purple;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+nav .menu button{
+border: none;
+background: purple;
+color: white;
+cursor: pointer;
+font-family: 'Bebas Neue', cursive;
+font-size: 1.5rem;
+}
+   
+
+
+.logo img{
+    width: 200px;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+}
