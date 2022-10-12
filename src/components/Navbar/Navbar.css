@@ -7,14 +7,19 @@ nav{
     align-items: center;
 }
 
-nav .menu button{
-border: none;
-background: purple;
-color: white;
-cursor: pointer;
+nav .menu {
+display: flex;
+justify-content: space-between;    
 font-family: 'Bebas Neue', cursive;
 font-size: 1.5rem;
 }
+
+nav .menu a{
+    color: white;
+    text-decoration: none;
+}
+
+
    
 
 
